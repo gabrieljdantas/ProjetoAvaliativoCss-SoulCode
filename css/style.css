@@ -116,7 +116,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
         flex-direction: row;
         width: 100%;
     }
-
+    .topSideBar{
+        margin-bottom: 10px;
+    }
     .sobre-mim {
         display: flex;
         width: 100%;
