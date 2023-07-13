@@ -10,6 +10,17 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
     display: flex;
 }
 
+h3, h4, h6, h5 {
+    color: rgb(221, 69, 22);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: white;
+}
+
 .principal {
     display: flex;
     flex-direction: row;
@@ -30,12 +41,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
     align-items: center;
 }
 .links{
-    padding: 5px 0px;
+    padding: 2px 0px;
 }
 .links:hover {
-    font-size: x-large;
     background-color: rgba(221, 69, 22);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 30px rgba(221, 69, 22);
     
 }
@@ -99,7 +109,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
 
 #avatar:hover{
     box-shadow: 0 0 20px rgba(221, 69, 22);
-    width: 210px;
 }
 
 .main {
@@ -116,9 +125,35 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
     align-items: center;
     flex-wrap: wrap;
 }
+
 .imagem-card {
-    margin: 20px 60px;
+    margin: 30px 50px;
     width: 250px;
+}
+.pessoa{
+    text-align: center;
+    color: #25d366;
+}
+.imagem-card:hover {
+    box-shadow: 0 0 20px rgba(221, 69, 22);
+}
+
+#botao-flutuante {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+#botao-flutuante:hover{
+    box-shadow: 0px 0px 30px green;
 }
 
 @media screen and (max-width: 767px) {
@@ -191,16 +226,4 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
     }
 }
 
-h4 {
-    color: rgb(221, 69, 22);
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-p {
-    color: white;
-}
-h3 {
-    color: rgb(221, 69, 22);
-}
+
