@@ -39,6 +39,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
 .lista-contato{
     color: white;
     margin-left: 30px;
+    font-size: 14px;
 }
 .midleSideBar{
     display: flex;
@@ -169,7 +170,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
 
 @media screen and (max-width: 767px) {
     p {
-        font-size: 11px;
+        font-size: 13px;
     }
     /* se largura é menor ou igual a 599px */
     body {
